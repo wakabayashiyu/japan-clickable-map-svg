@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Japan Clickable Map SVG</title>
+</style>
+<script type="text/javascript">
+window.onload = function(){
+    var hokkaido = document.getElementById("hokkaido");
+    var aomori = document.getElementById("aomori");
+    var iwate = document.getElementById("iwate");
+    var miyagi = document.getElementById("miyagi");
+    var akita = document.getElementById("akita");
+    var yamagata = document.getElementById("yamagata");
+    var fukushima = document.getElementById("fukushima");
+    var ibaraki = document.getElementById("ibaraki");
+    var tochigi = document.getElementById("tochigi");
+    var gunma = document.getElementById("gunma");
+    var saitama = document.getElementById("saitama");
+    var chiba = document.getElementById("chiba");
+    var tokyo = document.getElementById("tokyo");
+    var kanagawa = document.getElementById("kanagawa");
+    var niigata = document.getElementById("niigata");
+    var toyama = document.getElementById("toyama");
+    var ishikawa = document.getElementById("ishikawa");
+    var fukui = document.getElementById("fukui");
+    var yamanashi = document.getElementById("yamanashi");
+    var nagano = document.getElementById("nagano");
+    var gifu = document.getElementById("gifu");
+    var shizuoka = document.getElementById("shizuoka");
+    var aichi = document.getElementById("aichi");
+    var mie = document.getElementById("mie");
+    var shiga = document.getElementById("shiga");
+    var kyoto = document.getElementById("kyoto");
+    var osaka = document.getElementById("osaka");
+    var hyogo = document.getElementById("hyogo");
+    var nara = document.getElementById("nara");
+    var wakayama = document.getElementById("wakayama");
+    var tottori = document.getElementById("tottori");
+    var shimane = document.getElementById("shimane");
+    var okayama = document.getElementById("okayama");
+    var hiroshima = document.getElementById("hiroshima");
+    var yamaguchi = document.getElementById("yamaguchi");
+    var tokushima = document.getElementById("tokushima");
+    var kagawa = document.getElementById("kagawa");
+    var ehime = document.getElementById("ehime");
+    var kochi = document.getElementById("kochi");
+    var fukuoka = document.getElementById("fukuoka");
+    var saga = document.getElementById("saga");
+    var nagasaki = document.getElementById("nagasaki");
+    var kumamoto = document.getElementById("kumamoto");
+    var oita = document.getElementById("oita");
+    var miyazaki = document.getElementById("miyazaki");
+    var kagoshima = document.getElementById("kagoshima");
+    var okinawa = document.getElementById("okinawa");
+    var sado = document.getElementById("sado");
+    var awaji = document.getElementById("awaji");
+    
+    /////////////////
+    //             //
+    // onmouseover //
+    //             //
+    /////////////////
+    hokkaido.onmouseover = function() {
+        hokkaido.style.fill = "gray";
+    }
+    aomori.onmouseover = function() {
+        aomori.style.fill = "gray";
+    }
+    iwate.onmouseover = function() {
+        iwate.style.fill = "gray";
+    }
+    miyagi.onmouseover = function() {
+        miyagi.style.fill = "gray";
+    }
+    akita.onmouseover = function() {
+        akita.style.fill = "gray";
+    }
+    yamagata.onmouseover = function() {
+        yamagata.style.fill = "gray";
+    }
+    fukushima.onmouseover = function() {
+        fukushima.style.fill = "gray";
+    }
+    ibaraki.onmouseover = function() {
+        ibaraki.style.fill = "gray";
+    }
+    tochigi.onmouseover = function() {
+        tochigi.style.fill = "gray";
+    }
+    gunma.onmouseover = function() {
+        gunma.style.fill = "gray";
+    }
+    saitama.onmouseover = function() {
+        saitama.style.fill = "gray";
+    }
+    chiba.onmouseover = function() {
+        chiba.style.fill = "gray";
+    }
+    tokyo.onmouseover = function() {
+        tokyo.style.fill = "gray";
+    }
+    kanagawa.onmouseover = function() {
+        kanagawa.style.fill = "gray";
+    }
+    niigata.onmouseover = function() {
+        niigata.style.fill = "gray";
+        sado.style.fill = "gray";
+    }
+    sado.onmouseover = function() {
+        niigata.style.fill = "gray";
+        sado.style.fill = "gray";
+    }
+    toyama.onmouseover = function() {
+        toyama.style.fill = "gray";
+    }
+    ishikawa.onmouseover = function() {
+        ishikawa.style.fill = "gray";
+    }
+    fukui.onmouseover = function() {
+        fukui.style.fill = "gray";
+    }
+    yamanashi.onmouseover = function() {
+        yamanashi.style.fill = "gray";
+    }
+    nagano.onmouseover = function() {
+        nagano.style.fill = "gray";
+    }
+    gifu.onmouseover = function() {
+        gifu.style.fill = "gray";
+    }
+    shizuoka.onmouseover = function() {
+        shizuoka.style.fill = "gray";
+    }
+    aichi.onmouseover = function() {
+        aichi.style.fill = "gray";
+    }
+    mie.onmouseover = function() {
+        mie.style.fill = "gray";
+    }
+    shiga.onmouseover = function() {
+        shiga.style.fill = "gray";
+    }
+    kyoto.onmouseover = function() {
+        kyoto.style.fill = "gray";
+    }
+    osaka.onmouseover = function() {
+        osaka.style.fill = "gray";
+    }
+    hyogo.onmouseover = function() {
+        hyogo.style.fill = "gray";
+        awaji.style.fill = "gray";
+    }
+    awaji.onmouseover = function() {
+        hyogo.style.fill = "gray";
+        awaji.style.fill = "gray";
+    }
+    nara.onmouseover = function() {
+        nara.style.fill = "gray";
+    }
+    wakayama.onmouseover = function() {
+        wakayama.style.fill = "gray";
+    }
+    tottori.onmouseover = function() {
+        tottori.style.fill = "gray";
+    }
+    shimane.onmouseover = function() {
+        shimane.style.fill = "gray";
+    }
+    okayama.onmouseover = function() {
+        okayama.style.fill = "gray";
+    }
+    hiroshima.onmouseover = function() {
+        hiroshima.style.fill = "gray";
+    }
+    yamaguchi.onmouseover = function() {
+        yamaguchi.style.fill = "gray";
+    }
+    tokushima.onmouseover = function() {
+        tokushima.style.fill = "gray";
+    }
+    kagawa.onmouseover = function() {
+        kagawa.style.fill = "gray";
+    }
+    ehime.onmouseover = function() {
+        ehime.style.fill = "gray";
+    }
+    kochi.onmouseover = function() {
+        kochi.style.fill = "gray";
+    }
+    fukuoka.onmouseover = function() {
+        fukuoka.style.fill = "gray";
+    }
+    saga.onmouseover = function() {
+        saga.style.fill = "gray";
+    }
+    nagasaki.onmouseover = function() {
+        nagasaki.style.fill = "gray";
+    }
+    kumamoto.onmouseover = function() {
+        kumamoto.style.fill = "gray";
+    }
+    oita.onmouseover = function() {
+        oita.style.fill = "gray";
+    }
+    miyazaki.onmouseover = function() {
+        miyazaki.style.fill = "gray";
+    }
+    kagoshima.onmouseover = function() {
+        kagoshima.style.fill = "gray";
+    }
+    okinawa.onmouseover = function() {
+        okinawa.style.fill = "gray";
+    }
+    
+    ////////////////
+    //            //
+    // onmouseout //
+    //            //
+    ////////////////
+    hokkaido.onmouseout = function() {
+        hokkaido.style.fill = "transparent";
+    }
+    aomori.onmouseout = function() {
+        aomori.style.fill = "transparent";
+    }
+    iwate.onmouseout = function() {
+        iwate.style.fill = "transparent";
+    }
+    miyagi.onmouseout = function() {
+        miyagi.style.fill = "transparent";
+    }
+    akita.onmouseout = function() {
+        akita.style.fill = "transparent";
+    }
+    yamagata.onmouseout = function() {
+        yamagata.style.fill = "transparent";
+    }
+    fukushima.onmouseout = function() {
+        fukushima.style.fill = "transparent";
+    }
+    ibaraki.onmouseout = function() {
+        ibaraki.style.fill = "transparent";
+    }
+    tochigi.onmouseout = function() {
+        tochigi.style.fill = "transparent";
+    }
+    gunma.onmouseout = function() {
+        gunma.style.fill = "transparent";
+    }
+    saitama.onmouseout = function() {
+        saitama.style.fill = "transparent";
+    }
+    chiba.onmouseout = function() {
+        chiba.style.fill = "transparent";
+    }
+    tokyo.onmouseout = function() {
+        tokyo.style.fill = "transparent";
+    }
+    kanagawa.onmouseout = function() {
+        kanagawa.style.fill = "transparent";
+    }
+    niigata.onmouseout = function() {
+        niigata.style.fill = "transparent";
+        sado.style.fill = "transparent";
+    }
+    sado.onmouseout = function() {
+        niigata.style.fill = "transparent";
+        sado.style.fill = "transparent";
+    }
+    toyama.onmouseout = function() {
+        toyama.style.fill = "transparent";
+    }
+    ishikawa.onmouseout = function() {
+        ishikawa.style.fill = "transparent";
+    }
+    fukui.onmouseout = function() {
+        fukui.style.fill = "transparent";
+    }
+    yamanashi.onmouseout = function() {
+        yamanashi.style.fill = "transparent";
+    }
+    nagano.onmouseout = function() {
+        nagano.style.fill = "transparent";
+    }
+    gifu.onmouseout = function() {
+        gifu.style.fill = "transparent";
+    }
+    shizuoka.onmouseout = function() {
+        shizuoka.style.fill = "transparent";
+    }
+    aichi.onmouseout = function() {
+        aichi.style.fill = "transparent";
+    }
+    mie.onmouseout = function() {
+        mie.style.fill = "transparent";
+    }
+    shiga.onmouseout = function() {
+        shiga.style.fill = "transparent";
+    }
+    kyoto.onmouseout = function() {
+        kyoto.style.fill = "transparent";
+    }
+    osaka.onmouseout = function() {
+        osaka.style.fill = "transparent";
+    }
+    hyogo.onmouseout = function() {
+        hyogo.style.fill = "transparent";
+        awaji.style.fill = "transparent";
+    }
+    awaji.onmouseout = function() {
+        hyogo.style.fill = "transparent";
+        awaji.style.fill = "transparent";
+    }
+    nara.onmouseout = function() {
+        nara.style.fill = "transparent";
+    }
+    wakayama.onmouseout = function() {
+        wakayama.style.fill = "transparent";
+    }
+    tottori.onmouseout = function() {
+        tottori.style.fill = "transparent";
+    }
+    shimane.onmouseout = function() {
+        shimane.style.fill = "transparent";
+    }
+    okayama.onmouseout = function() {
+        okayama.style.fill = "transparent";
+    }
+    hiroshima.onmouseout = function() {
+        hiroshima.style.fill = "transparent";
+    }
+    yamaguchi.onmouseout = function() {
+        yamaguchi.style.fill = "transparent";
+    }
+    tokushima.onmouseout = function() {
+        tokushima.style.fill = "transparent";
+    }
+    kagawa.onmouseout = function() {
+        kagawa.style.fill = "transparent";
+    }
+    ehime.onmouseout = function() {
+        ehime.style.fill = "transparent";
+    }
+    kochi.onmouseout = function() {
+        kochi.style.fill = "transparent";
+    }
+    fukuoka.onmouseout = function() {
+        fukuoka.style.fill = "transparent";
+    }
+    saga.onmouseout = function() {
+        saga.style.fill = "transparent";
+    }
+    nagasaki.onmouseout = function() {
+        nagasaki.style.fill = "transparent";
+    }
+    kumamoto.onmouseout = function() {
+        kumamoto.style.fill = "transparent";
+    }
+    oita.onmouseout = function() {
+        oita.style.fill = "transparent";
+    }
+    miyazaki.onmouseout = function() {
+        miyazaki.style.fill = "transparent";
+    }
+    kagoshima.onmouseout = function() {
+        kagoshima.style.fill = "transparent";
+    }
+    okinawa.onmouseout = function() {
+        okinawa.style.fill = "transparent";
+    }
+    
+    /////////////
+    //         //
+    // onclick //
+    //         //
+    /////////////
+    hokkaido.onclick = function() {
+    }
+    aomori.onclick = function() {
+    }
+    iwate.onclick = function() {
+    }
+    miyagi.onclick = function() {
+    }
+    akita.onclick = function() {
+    }
+    yamagata.onclick = function() {
+    }
+    fukushima.onclick = function() {
+    }
+    ibaraki.onclick = function() {
+    }
+    tochigi.onclick = function() {
+    }
+    gunma.onclick = function() {
+    }
+    saitama.onclick = function() {
+    }
+    chiba.onclick = function() {
+    }
+    tokyo.onclick = function() {
+    }
+    kanagawa.onclick = function() {
+    }
+    niigata.onclick = function() {
+    }
+    sado.onclick = function() {
+    }
+    toyama.onclick = function() {
+    }
+    ishikawa.onclick = function() {
+    }
+    fukui.onclick = function() {
+    }
+    yamanashi.onclick = function() {
+    }
+    nagano.onclick = function() {
+    }
+    gifu.onclick = function() {
+    }
+    shizuoka.onclick = function() {
+    }
+    aichi.onclick = function() {
+    }
+    mie.onclick = function() {
+    }
+    shiga.onclick = function() {
+    }
+    kyoto.onclick = function() {
+    }
+    osaka.onclick = function() {
+    }
+    hyogo.onclick = function() {
+    }
+    awaji.onclick = function() {
+    }
+    nara.onclick = function() {
+    }
+    wakayama.onclick = function() {
+    }
+    tottori.onclick = function() {
+    }
+    shimane.onclick = function() {
+    }
+    okayama.onclick = function() {
+    }
+    hiroshima.onclick = function() {
+    }
+    yamaguchi.onclick = function() {
+    }
+    tokushima.onclick = function() {
+    }
+    kagawa.onclick = function() {
+    }
+    ehime.onclick = function() {
+    }
+    kochi.onclick = function() {
+    }
+    fukuoka.onclick = function() {
+    }
+    saga.onclick = function() {
+    }
+    nagasaki.onclick = function() {
+    }
+    kumamoto.onclick = function() {
+    }
+    oita.onclick = function() {
+    }
+    miyazaki.onclick = function() {
+    }
+    kagoshima.onclick = function() {
+    }
+    okinawa.onclick = function() {
+    }
+}
+</script>
+</head>
+<body>
+<p>*Use the browser which supported Inline SVG.</p>
+<!-- map -->
+<svg>
+  <g transform="scale(1.0,1.0)">
+    <path
+       d="m 244.321,29.748109 6.7058,-9.263784 2.09277,1.938095 -0.0391,1.279143 -3.17825,6.667047 0.3101,2.907544 3.4883,2.442076 0,0.813697 -1.35656,0.77525 1.35656,2.829651 2.20924,2.131588 2.40343,-3.217224 2.24842,0.03876 0.0778,0.891524 -3.87589,4.108743 -4.96156,2.092797 0.0388,1.046874 -3.83746,1.860562 -0.42638,-1.860562 -2.20947,1.085328 0.50391,1.938086 -5.00031,0.348852 -2.6362,-0.774931 -6.31795,4.496405 -5.46549,7.093086 -1.27948,11.667282 -3.99255,-3.915225 -9.57475,-3.178438 -9.2256,-5.891747 -5.11672,0.465137 -7.28743,6.860781 -2.28701,-5.310324 -3.45022,-0.891518 -3.72128,3.333493 0.23257,3.643581 6.55097,1.899315 3.02352,3.682343 1.93817,0.155358 1.8994,2.32603 -2.94601,2.442328 -5.07797,-1.70553 -3.56621,2.67459 -0.19381,3.139404 -3.10105,2.364476 -3.17859,-1.666464 -0.73649,-3.527358 2.36423,-3.798691 -0.31012,-3.1785 -5.5819,-5.930608 1.51177,-3.139733 -0.31009,-5.000317 2.59712,0.116286 1.93817,-2.480776 1.70558,0.232571 3.2949,-3.953737 -3.2949,-5.620513 2.75221,-2.635829 5.81447,3.488595 2.05446,-0.852766 2.17074,1.201623 2.94602,-1.976866 -0.8528,-10.504546 3.44994,-1.976869 2.28703,-16.512678 -3.21735,-9.9231114 0.62021,-5.5429878 2.3258,0.5817405 1.12414,-2.0156244 5.15552,3.5661049 9.41946,12.3650822 7.01617,5.930589 7.32625,3.372295 -0.77526,1.162859 2.36455,0.426383 0.19383,-1.279147 5.27181,0.07752 1.55053,2.829628 z"
+       id="outline_hokkaido"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 197.52246,91.883434 0.10317,4.496381 2.64158,4.548065 2.95255,2.17092 2.69366,4.60013 0.20699,4.54825 1.96826,2.53277 1.50187,6.87386 -2.27883,9.92347 -3.21135,2.27412 0,1.65369 -2.6416,4.65183 0.88052,1.34402 -0.10358,6.35725 -1.03593,0.93032 -2.07184,-2.89435 -2.48621,-0.0517 -2.07185,1.86066 -1.96849,7.02914 2.53803,8.01138 -0.98413,11.83587 -3.15961,3.15301 -2.95264,11.99073 5.33497,9.25162 0.15541,2.06719 -4.35102,0.51685 -3.05609,3.41141 -0.46597,6.56422 -6.42261,3.46269 0,1.70561 -1.9165,0.98201 -3.05622,-1.75708 0.46616,-0.67192 1.19134,-0.36178 0.46618,-3.92809 -0.82876,-1.86067 1.65751,-3.1011 1.45033,0 1.24313,-2.17078 -0.67336,-2.11909 -3.47041,0.20676 -0.41439,2.79098 -2.22727,2.06741 0.36239,2.11909 0.77695,1.34382 0,2.17077 -1.81291,-0.0517 -0.25878,-1.96402 -1.96851,-1.18877 -3.98841,0.56854 -1.91629,3.61795 0.93235,4.03145 -3.15963,4.85841 -2.74547,1.18875 -1.50214,-2.58447 0,-5.42692 1.50233,-1.55056 -0.56977,-0.51685 -3.15964,0.20674 -1.24313,2.32583 -1.50214,0.51685 -2.53786,3.77302 -0.93234,3.61795 -9.94505,-1.55055 -9.94506,1.70562 0,-1.29213 3.67762,-1.80898 0.25897,-0.67189 -1.45032,-0.72361 -0.82876,0.62023 -1.65751,0.0517 -0.82874,-0.67192 -0.82895,-1.3438 -0.36239,0.0517 -0.15539,1.86067 0.77695,1.75728 -0.98414,0.15507 -1.13974,-1.08539 -0.72496,-2.42921 0.0516,-1.96402 0.56977,-1.65393 -0.77695,-0.25842 -1.86491,0.87865 -0.1038,2.84268 -1.70932,1.96402 0.3108,3.46291 5.64592,2.11909 -1.86471,4.96177 -4.1438,-0.62023 -4.76557,2.42921 -0.3626,4.13459 -3.10805,1.96424 -5.49077,8.21792 -6.62989,-2.99773 -0.46638,-2.63594 -5.024585,-3.77302 0.466395,-4.65166 1.34675,-0.98201 -1.450359,-2.17076 0.207193,-0.56854 3.574065,-2.53256 1.761111,-2.84268 -0.36258,-2.89437 -6.371125,1.39548 -4.506415,-2.7393 -6.422921,0.62024 -6.164166,4.54827 -2.252531,-0.80119 -6.034905,1.05962 -3.315278,2.37751 -1.760919,-1.49886 -5.438245,1.55049 -3.885573,2.53263 -1.553943,-2.42921 -2.020109,-0.6719 -2.745291,1.65391 -0.673167,4.80672 -2.175504,2.94604 -0.776969,-0.46516 -4.972587,-3.1528 -6.63012,-0.10335 -3.314844,0.56854 -1.502138,-2.27416 -2.486077,0.93034 -0.983944,-2.79099 0.72517,-1.65393 -0.103597,-4.44492 7.251676,0.10338 3.936609,-3.25617 3.10786,-0.56852 15.953673,-13.12802 -0.103591,-1.44717 7.510667,-3.10111 5.076159,0.15505 0,0.46516 -1.346737,1.13708 2.020109,0.51685 3.056063,-1.13707 9.375368,0.46518 6.57831,-2.63594 5.231554,0.62021 5.335151,-2.68762 2.641697,2.22245 -1.657523,1.91236 1.346733,1.75729 1.91652,-1.96403 1.70932,2.32583 3.05606,-0.15507 1.9165,-1.39548 2.05896,-3.29507 2.10325,1.02411 0.19703,-0.23483 -2.59811,-5.66047 13.1566,-16.901 -1.29495,-5.58199 0.72518,-4.96178 7.87324,-3.56626 2.64168,-0.15505 0.93235,2.01572 -4.86897,4.65165 -2.43449,0.25843 0.62157,2.11909 1.70931,0.36178 -0.93235,4.91008 4.4546,0.51686 3.00427,-3.20447 10.35951,-4.85841 3.00428,-0.41347 7.56245,-10.80217 2.53809,-2.89437 5.90493,-3.35953 1.96832,-3.35953 0.98415,-5.8921 3.47043,-5.5303 2.69348,-10.33701 1.19135,-1.29213 0.82876,-7.13254 -1.60572,-3.72132 -2.38269,0.93033 -0.72518,0 -1.08775,-1.80897 0.0518,-2.06741 1.45034,0.10337 1.08775,0.62022 1.86471,-1.80898 0.0518,-5.42693 -0.51796,-0.46516 -0.10361,-3.15279 -1.8647,-1.34381 0.56977,-0.62023 2.74526,-3.152777 2.22732,-0.05166 1.13954,-0.671908 0.56977,-9.458369 1.86471,-0.465174 2.53809,1.447184 2.2273,7.23591 1.60572,-0.310108 0,-2.687626 1.70933,-0.723588 2.0201,2.635939 1.24315,-0.361794 0.77698,-6.357262 -0.77698,-0.878655 -2.58987,2.584253 -3.21147,0.723601 -0.31078,-4.755024 1.55392,-4.496815 3.26327,0.981805 2.58987,2.584259 3.5515,-1.048172 0.1072,0.08019 -0.70623,4.379208 z"
+       id="outline_honshu"
+       style="fill:none;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 155.24592,153.25648 -0.77518,1.88623 -4.0569,3.30715 -1.34348,0.026 -0.18109,-1.05941 2.09313,-2.06713 -0.0775,-0.95605 -1.137,0.67181 -0.90443,0 0.1294,-2.63559 4.03105,-5.06447 1.13695,1.05959 -1.55041,3.51406 0.46513,1.03354 1.96365,-0.80099 z"
+       id="outline_sado"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 88.847357,228.63561 5.272109,-5.42656 1.473107,0.34886 -1.977049,3.75968 0.426647,2.24828 -2.791235,2.24815 -2.287293,-1.97682 z"
+       id="outline_awaji"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 70.454346,228.75255 3.043125,0 2.054214,-1.35658 5.000285,-0.50374 5.000756,2.94477 1.899389,0.11655 1.589641,2.71227 -1.046633,2.24732 1.860385,1.16316 -0.503924,1.31756 1.777199,0.80742 0.01712,0.33776 -4.158861,2.18734 -3.566039,3.06064 -2.752436,6.85942 -5.5818,-5.92913 -5.349409,-0.2325 -4.961777,3.87496 -1.085389,3.68119 -3.488751,2.3637 -0.620228,3.33279 0.880603,2.38031 -0.217073,0.15825 -1.865217,-1.4145 -1.821573,-0.19376 -0.155054,0.77501 -3.41119,-0.93 0.116292,-1.55002 0.736507,-0.155 -0.129564,-0.9427 -2.790968,-0.25832 -1.924904,-6.58778 2.519344,0.19375 0.271345,-1.04626 -1.938194,-1.43375 -0.116292,-2.40251 -3.139869,1.705 -2.093576,0.0775 -0.736203,-0.81375 10.892633,-6.66504 1.085383,-3.64253 4.457748,-3.92666 4.031536,4.08166 1.899426,-1.085 3.605036,-0.23251 1.628074,-0.73625 -0.03876,-2.67378 -1.000095,-1.38673 z"
+       id="outline_shikoku"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 28.210487,238.14501 2.222136,1.96414 2.325707,0.62017 3.307662,-2.5841 4.289944,1.91224 -0.775263,1.08531 -0.206741,2.27365 -1.292086,1.44725 -2.119023,0.10315 0.155048,2.01575 5.840252,0.62038 -0.671703,3.04947 2.119066,0.41345 -1.292309,2.17043 1.860621,1.70525 -2.842432,2.58382 -7.752659,13.64398 -0.516836,6.56373 -1.757272,5.68469 -1.912314,1.96408 -2.532541,-2.4807 -2.377711,1.29203 2.429373,2.58406 -4.754963,3.566 -3.886745,1.18496 -0.180135,-0.24657 2.103097,-4.34917 -0.361782,-5.16814 -1.860627,-0.3101 0.258427,-1.44708 0.981991,-0.2584 1.498833,0.67185 0.620209,-1.75715 -2.532517,-1.34372 -2.067355,3.10087 -0.413251,2.89417 2.118824,3.41096 -2.222402,1.86054 -2.687564,-1.86054 -3.256322,-0.31007 -1.2406354,-4.18621 2.8424564,0 0.826956,-4.65131 -1.912345,-2.11895 0,-6.09841 2.532566,-0.10335 5.271854,-9.81947 -2.554812,0.32513 -0.04596,-0.21295 3.014231,-3.10969 -3.256149,-5.78832 0,-2.84249 -3.256142,0.20674 0.826956,2.63575 -1.240437,2.73911 2.377506,-0.20674 1.292117,1.49877 -2.325819,4.54796 -2.635933,-0.82689 0.878648,-2.7908 -2.2224521,0 -4.0689762,3.06349 -0.2510282,-0.13165 0.7020617,-3.6037 -3.566256,-3.61769 0.2584209,-2.68744 3.3078351,2.01558 0.6202152,2.42901 1.4471833,-0.0517 0.5168543,-0.67186 -1.6022309,-3.3593 -4.3932241,-3.30761 0.2067405,-4.03115 3.2044617,1.75718 1.7056042,0.10336 -0.051662,-1.55044 -2.2741328,-1.70549 3.1527751,-1.60213 2.0157183,2.06725 2.119079,-0.98193 -0.775275,-1.34372 2.170759,-0.93026 1.447183,1.39539 0.930323,-0.46513 -0.982009,-1.91222 4.186471,-3.51456 8.889803,-0.0517 z"
+       id="outline_kyushu"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 62.583063,109.04388 1.589238,2.05438 -4.535142,3.87619 -1.705524,-0.0775 -4.108761,2.32571 1.627069,2.13198 -0.542586,1.12408 -1.084483,-1.00787 -5.039332,3.75989 -0.270993,-1.86052 2.131849,-2.13194 0.775238,-2.71333 4.108761,-1.86058 0.310096,-0.77523 -1.00781,-1.16286 0.852762,-1.70552 2.674571,2.01562 z"
+       id="outline_okinawa"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <rect
+       width="90.910919"
+       height="73.110527"
+       x="9.2933416"
+       y="75.952759"
+       id="rect1"
+       style="fill:transparent;stroke:#000000;stroke-width:0.42536303px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       d="m 244.321,29.748109 6.7058,-9.263784 2.09277,1.938095 -0.0391,1.279143 -3.17825,6.667047 0.3101,2.907544 3.4883,2.442076 0,0.813697 -1.35656,0.77525 1.35656,2.829651 2.20924,2.131588 2.40343,-3.217224 2.24842,0.03876 0.0778,0.891524 -3.87589,4.108743 -4.96156,2.092797 0.0388,1.046874 -3.83746,1.860562 -0.42638,-1.860562 -2.20947,1.085328 0.50391,1.938086 -5.00031,0.348852 -2.6362,-0.774931 -6.31795,4.496405 -5.46549,7.093086 -1.27948,11.667282 -3.99255,-3.915225 -9.57475,-3.178438 -9.2256,-5.891747 -5.11672,0.465137 -7.28743,6.860781 -2.28701,-5.310324 -3.45022,-0.891518 -3.72128,3.333493 0.23257,3.643581 6.55097,1.899315 3.02352,3.682343 1.93817,0.155358 1.8994,2.32603 -2.94601,2.442328 -5.07797,-1.70553 -3.56621,2.67459 -0.19381,3.139404 -3.10105,2.364476 -3.17859,-1.666464 -0.73649,-3.527358 2.36423,-3.798691 -0.31012,-3.1785 -5.5819,-5.930608 1.51177,-3.139733 -0.31009,-5.000317 2.59712,0.116286 1.93817,-2.480776 1.70558,0.232571 3.2949,-3.953737 -3.2949,-5.620513 2.75221,-2.635829 5.81447,3.488595 2.05446,-0.852766 2.17074,1.201623 2.94602,-1.976866 -0.8528,-10.504546 3.44994,-1.976869 2.28703,-16.512678 -3.21735,-9.9231114 0.62021,-5.5429878 2.3258,0.5817405 1.12414,-2.0156244 5.15552,3.5661049 9.41946,12.3650822 7.01617,5.930589 7.32625,3.372295 -0.77526,1.162859 2.36455,0.426383 0.19383,-1.279147 5.27181,0.07752 1.55053,2.829628 z"
+       id="hokkaido"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 175.66073,104.41629 -0.0517,-1.72817 -1.86033,-1.347 3.3139,-3.77289 2.20589,-0.04521 1.14635,-0.678315 0.5654,-9.458108 1.86335,-0.465285 2.5323,1.44727 2.22209,7.235705 1.60179,-0.31012 -6e-5,-2.687576 1.7053,-0.723576 2.01533,2.635896 1.2403,-0.361776 0.77506,-6.357187 -0.77515,-0.878636 -2.58361,2.581071 -3.20711,0.726807 -0.30682,-4.758119 1.55027,-4.49323 3.25233,0.981786 2.58376,2.584197 3.55235,-1.056091 0.10659,0.07777 -0.7102,4.36361 -0.87525,3.953819 0.10007,4.490135 2.63509,4.554743 2.72968,2.01225 -2.5226,2.58762 -3.61729,-0.0517 -4.44413,3.25609 -1.65362,-0.15525 1.65362,-4.96161 -3.20391,-0.56853 -3.06147,1.12408 z"
+       id="aomori"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 171.78427,112.8084 -0.0517,2.06762 1.08514,1.81562 0.7297,0 2.36985,-0.93688 1.6079,3.7217 -0.82654,7.13973 -1.19464,1.2987 -0.96415,3.71758 3.61094,0.37212 6.08278,2.67529 2.36324,1.86086 3.17721,-1.62825 0.27151,-3.33403 -1.85969,-5.93147 1.93717,-5.38872 -0.15497,-4.03185 0.66898,-7.34651 1.75969,-5.2724 -3.203,-0.56214 -3.06088,1.12427 -10.4738,0.25198 0.0517,1.4215 0.51661,0.45229 -0.0517,5.43395 -1.85991,1.81563 -1.09779,-0.63321 z"
+       id="akita"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 205.89546,107.68551 0.19368,4.56111 1.97502,2.53298 1.49818,6.87364 -2.27232,9.92333 -3.20282,2.27408 -2.98309,0.28457 -1.35559,3.64376 -1.85951,0.15506 -1.20094,1.04662 -2.51772,-2.44238 -4.37703,-1.67976 0.27099,-3.28191 -1.85946,-5.93082 1.93693,-5.37517 -0.15496,-4.05727 0.665,-7.24868 0.31639,-0.37473 1.44623,0.14182 4.442,-3.25579 3.61559,0.0517 2.19518,-2.25471 0.61983,-0.045 z"
+       id="iwate"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 172.81782,138.24247 -3.29785,5.2743 3.42744,1.15969 0.18068,1.7829 0.72375,0.87854 1.34375,-0.2586 1.29181,1.49863 -1.55043,2.42859 -1.65378,0.41362 -1.0853,4.96099 2.11892,1.55031 1.75714,-0.15505 3.20422,2.63555 3.04916,-1.602 0.46492,-5.27107 2.68712,-1.44696 1.13695,-8.57839 1.03379,-3.10062 -1.03358,-3.87579 -2.37727,-1.86037 -6.09823,-2.68698 -3.60468,-0.36196 z"
+       id="yamagata"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 194.57012,147.71356 -1.95078,7.00956 0.71675,2.25426 -1.44698,1.39567 -2.42843,0.1811 -3.30744,-2.63591 -3.53644,-0.36173 0.18107,-2.01565 2.68042,-1.4473 1.14034,-8.57929 1.03324,-3.12703 -1.03324,-3.85022 3.17804,-1.67972 4.36628,1.67953 2.51914,2.44206 1.20179,-1.04642 1.86034,-0.15505 1.3565,-3.64389 2.98425,-0.27113 0,1.64075 -2.63545,4.65155 0.87846,1.34393 -0.10334,6.35696 -1.03351,0.9303 -2.06706,-2.89419 -2.48691,-0.0517 z"
+       id="miyagi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 195.15153,162.74019 -0.98818,11.84181 -3.06216,3.06214 -2.40325,-1.41481 -2.36494,2.09314 -2.94607,-1.35667 -0.19381,-1.97685 -3.52794,-2.7521 -2.20961,-0.5039 -9.18688,5.00028 -1.62809,-0.96904 0.0775,-3.68239 -1.12417,-1.55047 0.0778,-3.79867 6.00844,-2.28695 0,-3.10095 2.63596,-3.41105 1.74438,-0.15505 3.21741,2.63581 3.05267,-1.59892 0.28104,-3.23662 3.5469,0.33947 3.27556,2.63577 2.44215,-0.17441 1.45365,-1.41479 z"
+       id="fukushima"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 155.24592,153.25648 -0.77518,1.88623 -4.0569,3.30715 -1.34348,0.026 -0.18109,-1.05941 2.09313,-2.06713 -0.0775,-0.95605 -1.137,0.67181 -0.90443,0 0.1294,-2.63559 4.03105,-5.06447 1.13695,1.05959 -1.55041,3.51406 0.46513,1.03354 1.96365,-0.80099 z"
+       id="sado"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 166.41603,153.02387 -5.90492,3.36926 -2.53866,2.90393 -7.53859,10.78497 -2.98748,0.41324 -7.85847,3.69217 1.86044,1.36933 0.56849,3.72076 2.01548,-1.73147 1.93797,-0.18088 1.05942,1.60207 1.49869,-1.34367 2.24804,-0.0775 1.24029,-2.06717 2.45475,-0.59432 2.27389,3.17828 0.0517,2.4548 4.39272,-2.27409 0.23257,-2.32556 1.93796,0 1.03359,-1.4728 2.2448,1.31778 0.0838,-3.67571 -1.12703,-1.55683 0.0743,-3.79844 6.00448,-2.2868 0.007,-3.10076 2.62596,-3.39792 -2.11239,-1.56328 1.08204,-4.96122 1.66343,-0.41989 1.54092,-2.42268 -1.28533,-1.49245 -1.35661,0.2485 -0.72027,-0.87534 -0.18413,-1.78619 -3.19581,-1.07194 -0.40242,0.26755 -0.96252,5.80122 z"
+       id="niigata"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 188.0581,189.72171 4.96798,8.62794 -1.65399,0.77502 -3.51426,-2.32582 -5.47767,1.44704 -5.52955,-4.54783 -1.24004,0.0517 -1.29171,-2.63568 1.44695,-0.46512 2.68717,-3.15249 3.82409,-1.34391 1.04969,-9.20891 3.00694,1.37905 2.36414,-2.09311 2.33841,1.38572 z"
+       id="ibaraki"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 168.65773,182.27618 -0.41654,-5.52324 9.20277,-5.01947 2.20864,0.50361 3.53577,2.75202 0.1647,1.73458 -1.07498,9.42862 -3.83616,1.34695 -2.67372,3.14936 -0.87184,0.27101 -1.16248,-1.70545 -4.37866,-2.40317 0.85249,-3.75977 z"
+       id="tochigi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 156.33148,187.23771 -3.79863,-1.0849 1.86065,-4.57381 2.11241,-0.90174 4.6805,-2.442 0.23289,-2.31603 1.94785,-0.01 1.02755,-1.47262 3.84734,2.28714 0.40702,5.55236 1.55992,0.77521 -0.8528,3.75971 4.38028,2.40311 1.16258,1.71511 -0.96879,0.30039 -3.68251,0.1166 -2.36457,-1.2791 -3.87634,0 -0.19383,2.01554 -5.58192,3.99271 -2.75221,-4.53507 z"
+       id="gunma"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 189.20157,201.55054 -3.05259,3.42066 -0.46202,6.5533 -6.409,3.46597 0,1.70221 -1.9059,0.98493 -3.05564,-1.75691 0.47163,-0.67182 1.18551,-0.35853 0.45869,-3.93089 -0.8237,-1.85724 1.65391,-3.104 1.44715,0 1.24044,-2.16732 -0.6719,-2.1221 -2.04155,0.1292 -0.59437,-2.76485 0.12921,-2.9972 -1.16937,-2.3288 1.23399,-0.0519 5.54639,4.55765 5.4818,-1.45993 3.50808,2.33202 1.66037,-0.77518 0.35554,0.62336 0.15183,2.06395 z"
+       id="chiba"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 167.89545,190.06734 2.3384,1.27886 3.6948,-0.11596 0.38756,-0.11634 2.4546,4.96152 -0.1421,3.26906 -7.84184,0.40017 -6.30451,-2.11909 -1.44715,0.56848 -2.79033,-0.7752 0.0518,-1.38245 5.51639,-3.95998 0.19384,-2.00928 z"
+       id="saitama"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 168.79343,199.74811 7.90749,-0.40681 0.53327,2.49963 -1.41512,0.0775 -0.41669,2.79084 -0.33917,0.30975 -2.83933,-1.8893 -1.62802,0.0388 0.15505,2.20939 -0.814,0.62019 -0.58143,-1.86055 -4.07002,-0.73648 -4.24486,-5.20373 1.44394,-0.57174 z"
+       id="tokyo"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 170.27284,209.19956 -3.95971,0.56846 -1.9288,3.64711 -0.94639,-0.43914 -0.0773,-4.39323 -2.1444,-0.0777 0,-1.05984 3.17814,-1.78303 0.87852,-2.26754 4.08249,0.73996 0.58782,1.86389 0.80745,-0.62023 -0.15503,-2.21276 1.63429,-0.0325 2.83874,1.88671 -1.8928,1.75731 0.3682,2.12233 0.77189,1.33736 0,2.17401 -1.80864,-0.0517 -0.25192,-1.96081 z"
+       id="kanagawa"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 164.39396,205.64963 -3.17874,1.7965 -0.0127,1.07262 -4.13461,-0.10344 -0.38794,-0.63345 -1.1245,0.1163 -0.31013,3.06266 -1.24047,1.24057 -0.62023,-0.0388 -3.02368,-3.06266 0.1292,-2.58488 -0.98203,-2.49327 0.77531,-6.16403 1.35678,0.1163 1.24052,-1.31802 1.58921,0.50421 1.89945,-0.15506 4.62614,1.16296 4.28998,5.22045 z"
+       id="yamanashi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 165.3307,217.42677 -3.16566,4.85173 -2.73313,1.1824 -1.49242,-2.57765 -0.01,-5.43312 1.5021,-1.54378 -0.56852,-0.51358 -3.15605,0.20672 -1.23745,2.32242 -1.49242,0.51034 -2.53588,3.77596 -0.93337,3.61767 -9.92365,-1.54738 -2.60668,0.45434 0.0743,-2.41817 4.39325,-3.72096 1.34382,-4.80624 5.11685,-3.4623 0.72359,-3.7209 0.94649,-0.40049 0.92017,2.31549 -0.14166,2.57124 3.02977,3.06735 0.62026,0.0388 1.24069,-1.23596 0.30998,-3.07723 1.12752,-0.11076 0.37795,0.62986 6.29591,0.17117 0.0775,4.39923 0.96909,0.44575 z"
+       id="shizuoka"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 141.44691,216.61923 -4.37982,3.68177 -0.0972,2.42262 -7.30661,1.25927 0,-1.29831 3.68238,-1.80217 0.25195,-0.67822 -1.45357,-0.717 -0.82345,0.61955 -1.65731,0.049 -0.83338,-0.67822 -0.81368,-1.33709 -0.36792,0.0581 -0.15472,1.8506 0.77517,1.7731 -0.96896,0.14533 -1.15341,-1.08517 -0.71706,-2.41256 0.0481,-1.97658 0.57173,-1.65644 -0.8043,-0.2713 -1.00807,-2.55819 2.94586,-3.68221 4.30252,2.63547 4.38006,0 1.31788,0.77514 2.05436,-0.77514 0.81399,0.89141 2.72623,0 z"
+       id="aichi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 155.47872,191.54028 2.84255,4.68373 -0.0838,1.26003 -1.87363,-0.48433 -1.89303,0.16152 -1.59583,-0.50395 -1.2273,1.318 -1.37635,-0.10983 -0.78196,6.37682 -0.85283,0.37453 -0.72363,3.71518 -5.20721,3.51442 -2.66831,2e-4 -0.91764,-1.02078 0.4652,-5.96334 -1.08543,-3.8248 -2.63604,-1.75733 0.51688,-1.75734 2.63603,-1.44721 1.03374,-8.01139 -0.98207,-1.91218 2.73942,-3.66973 0.18092,-3.1913 2.05457,-1.74463 1.9253,-0.18094 1.04698,1.60241 1.51153,-1.34374 2.24844,-0.0776 1.24045,-2.06738 2.45512,-0.59426 2.27421,3.16555 0.0523,2.48119 -2.40405,1.04634 -1.86071,4.57421 3.79901,1.08541 z"
+       id="nagano"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 141.42744,175.55099 0.56159,3.45044 -0.19362,3.50823 -2.72902,3.64391 -2.76775,0.38763 -2.9802,-0.38765 -1.47091,0.5427 -2.51602,2.48095 -0.88995,-1.04664 -1.23862,0.50394 -1.35474,-5.15573 1.97379,-6.82263 2.36113,-1.31799 -0.50315,2.69413 4.43203,0.52335 3.01915,-3.21748 2.43862,-1.14357 z"
+       id="toyama"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 139.01784,196.07542 -2.63887,1.44396 -0.51983,1.76105 2.64533,1.75727 1.08204,3.81862 -0.47803,6.1544 -1.92503,0.7269 -1.31462,-0.77536 -4.37657,0 -4.30906,-2.63297 -2.9361,3.66677 -3.05884,-1.55091 -1.44706,0.9821 -0.46513,-5.42742 -1.80881,-3.46321 1.86069,-2.17097 2.94577,0.67198 4.13439,-1.60238 0.25841,-3.35983 -0.7752,-3.25645 1.1854,-4.14168 1.35015,-0.5494 0.88814,1.04674 2.51937,-2.48114 1.48256,-0.54274 2.97481,0.38769 2.7909,-0.38769 0.96577,1.91254 z"
+       id="gifu"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 130.70012,170.38593 -2.43214,0.26165 0.62008,2.12225 1.70552,0.35855 -0.41671,2.19981 -2.37401,1.32761 -1.97699,6.8129 1.30842,5.0001 -1.25967,4.42863 -5.28096,-0.89154 -3.83719,-3.78904 7.94566,-10.23338 -1.28936,-5.58188 0.72676,-4.96164 7.84937,-3.5632 2.63531,-0.15512 0.93023,2.01596 z"
+       id="ishikawa"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 126.40667,199.43783 -4.13753,1.59872 -2.94569,-0.66855 -1.83139,2.14131 -1.27937,-0.69738 -0.77492,0.0775 0,1.97669 -2.55781,1.35615 -0.93055,-0.46506 -1.20188,1.24019 -1.35665,0 -0.69739,1.47274 -3.41056,-0.0775 -1.86013,-2.28661 0.93963,-1.17238 0.49416,0.66853 3.05233,-0.15503 1.90891,-1.39521 2.05415,-3.2944 2.10183,1.02911 0.19731,-0.23273 -2.59941,-5.66983 5.19379,-6.67574 3.82751,3.79784 5.31977,0.90109 0.75582,3.16838 z"
+       id="fukui"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 119.27509,205.99847 0.63334,7.44228 -1.29224,4.72895 -3.84004,-0.0388 -0.77571,0.85276 -1.86168,-1.2019 -0.73694,-2.63575 -1.04685,-0.3101 -0.54297,-5.73661 -1.16352,-1.53735 0.72399,-1.56352 1.37036,0 1.20228,-1.24035 0.93082,0.46488 2.55975,-1.35667 -3e-5,-1.97687 0.76277,-0.0775 1.24108,0.67219 z"
+       id="shiga"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 121.60067,220.26215 0.31012,3.46256 5.63345,2.11943 -1.86049,4.96115 -4.13486,-0.62017 -4.75515,2.4289 -0.36155,4.13435 -3.10122,1.96379 -1.6023,2.41562 -1.91215,-1.89926 1.65391,-2.89395 3.30784,-2.37715 0,-6.20132 1.66684,-1.17565 -0.14212,-0.943 -1.91235,-0.4523 -0.27134,-6.33047 0.64604,-0.71057 3.83761,0.0259 1.30512,-4.76762 -0.16805,-1.97673 1.4472,-0.98218 3.06234,1.55 0.99494,2.59695 -1.83483,0.86554 -0.10334,2.8424 z"
+       id="mie"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 109.8172,209.09942 0.54237,5.73712 1.04687,0.30974 0.73693,2.6358 1.98638,1.27951 0.1069,2.59716 -2.79122,-0.15505 -0.65905,0.89154 -2.79121,-0.19351 -1.35722,-1.31797 0.23263,-1.43429 -1.24061,-2.67474 -0.77537,-0.0388 -0.65906,0.55241 -0.50434,-0.53301 0.0776,-1.22108 -2.75267,-1.51181 -0.1166,-2.32586 -2.248721,0.0388 -1.473293,-2.82979 -2.597637,-0.89126 -0.03907,-2.0157 1.628415,0 0,-2.51961 -2.171212,0.0772 -0.436223,-2.50997 5.341024,-2.70379 2.646107,2.22893 -1.667143,1.90913 1.356983,1.76376 1.90946,-1.97697 1.2116,1.65717 -0.94019,1.1823 1.86097,2.28708 3.30527,0.0775 z"
+       id="kyoto"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 114.77873,233.9587 -3.31366,2.3804 -1.59894,2.80079 -4.62192,-0.58171 0.27131,-2.24806 -0.65889,-1.74417 1.78287,-2.86821 -1.08524,-3.91518 0.27132,-4.57381 0.85269,-2.28688 1.31775,1.27909 2.79061,0.19383 0.6589,-0.89153 2.79059,0.15507 0.15512,3.52724 1.91194,0.45212 0.14244,0.94329 -1.66661,1.17569 z"
+       id="nara"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 104.85568,234.56599 0.65872,1.74324 -0.27129,2.24706 4.45781,0.56263 2.02499,2.00434 -3.87601,5.80263 -6.6086,-2.99332 -0.46542,-2.63461 -5.019577,-3.77763 0.465124,-4.64938 1.346961,-0.97831 -1.286846,-1.92677 9.264998,-2.21806 1.09196,3.95029 z"
+       id="wakayama"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 106.8713,219.44885 -0.27959,1.71542 -0.7667,2.04477 -0.27135,4.5344 -9.274071,2.2286 -0.164735,-0.2318 0.21319,-0.59153 3.566207,-2.52906 1.754039,-2.83912 -0.35857,-2.90698 0.69775,-3.47865 -1.43425,-1.47286 0.46516,-1.89921 2.7529,1.50196 -0.0686,1.23058 0.50393,0.53294 0.64928,-0.55233 0.77527,0.0388 z"
+       id="osaka"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 97.184062,208.90885 1.473312,2.82062 2.242096,-0.0293 0.11931,2.3037 -0.4652,1.92871 1.43433,1.46351 -0.70748,3.48957 -6.347777,1.39573 -4.496759,-2.7432 -6.105055,0.59122 -1.182628,-1.88028 0.969128,-4.92366 1.511813,-1.00799 0.07754,-1.35691 1.24048,-1.08554 -0.54271,-7.21102 -0.852837,-1.12428 2.820136,-1.12433 5.194492,0.61064 0.445805,2.51997 2.161122,-0.0678 0,2.51998 -1.628112,-0.001 0.04844,2.01713 z"
+       id="hyogo"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 86.401779,202.68109 0.535795,7.19323 -1.223816,1.0852 -3.908042,0 -0.05148,-1.86052 -2.686932,-1.86051 -3.100604,1.6538 -3.359026,-1.29202 -1.911948,2.53236 -1.963851,0.0517 -0.258378,1.24032 -1.963411,1.44706 -1.34376,-0.77503 0,-3.15258 1.963647,-1.65384 0.310051,-2.58408 -1.301934,-1.46489 0.198417,-0.30763 3.067158,0.79378 3.04235,-1.14345 9.356348,0.46817 3.743214,-1.51172 z"
+       id="tottori"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 83.149017,218.24723 1.098233,1.74462 -6.369864,4.71567 -2.248593,-0.80109 -5.504457,0.96904 -1.666836,-3.9923 0.07721,-2.9848 -1.705641,-2.40376 -0.03845,-2.82849 1.679773,-1.24106 0.258433,-1.2401 1.964026,-0.0514 1.91235,-2.53239 3.359541,1.29203 3.101101,-1.6538 2.687644,1.86051 0.05166,1.86056 3.902232,0 -0.07754,1.35668 -1.511783,1.00777 z"
+       id="okayama"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 68.535713,217.88548 -0.07731,3.01024 1.664299,3.97922 -0.50321,0.0774 -3.316276,2.39015 -1.748286,-1.49816 -5.438617,1.55038 -3.858427,2.52583 -1.554917,-2.44202 -2.006279,-0.65891 -2.742004,1.66015 -0.103435,0.79457 -1.696847,-1.00126 0,-3.1524 -1.032518,-1.91211 1.651685,-4.65107 1.858152,-1.34364 7.071299,-0.36154 0,-1.75706 -0.774233,-0.7237 2.890459,-2.6356 6.058436,0.20025 1.91614,1.08525 0.0387,2.4741 z"
+       id="hiroshima"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 67.437424,204.70655 -0.310195,2.58369 -1.963733,1.65372 0,2.99721 -6.356964,-0.20687 -2.894497,2.63555 0.775275,0.71026 0,1.76998 -7.08072,0.36183 -1.860807,1.34364 -1.667065,4.70251 -2.519859,2.58405 -2.68788,0 0.05191,-3.1006 -1.395503,-1.86036 -0.05191,-1.60188 0.878686,-0.15508 15.919227,-13.12588 -0.103374,-1.44689 7.494499,-3.10069 5.078137,0.15509 -1.86e-4,0.46502 -1.343834,1.13701 -1.072502,-0.28427 -0.20687,0.31012 z"
+       id="shimane"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 47.113394,225.10812 0.0134,3.15194 1.692394,1.02115 -0.555784,4.0054 -2.170257,2.94549 -5.73472,-3.61787 -6.626276,-0.10338 -3.293769,0.5685 -1.49833,-2.27389 -2.479664,0.93028 -0.981985,-2.79074 0.723341,-1.64075 -0.10333,-4.45747 7.233355,0.10305 3.926667,-3.25585 2.208752,-0.40056 0.06459,1.5892 1.395006,1.87344 -0.05166,3.08791 2.686677,0 2.518754,-2.58397 z"
+       id="yamaguchi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 88.847357,228.63561 5.272109,-5.42656 1.473107,0.34886 -1.977049,3.75968 0.426647,2.24828 -2.791235,2.24815 -2.287293,-1.97682 z"
+       id="awaji"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 87.451588,229.95332 1.589238,2.71333 -1.046479,2.24426 1.860987,1.16546 -0.504053,1.31776 1.796294,0.81387 0.01321,0.32291 -4.17447,2.1961 -3.567633,3.06161 -0.568696,1.42057 -3.19292,-1.76968 0.03876,-1.78267 -1.822504,-0.93007 -1.046968,-2.71275 -1.745297,0.9301 -3.296088,-2.17022 0.271755,-2.984 3.0246,-1.12385 2.093949,0.34878 3.722575,-1.27888 4.110343,-0.0388 0.823997,-1.84081 z"
+       id="tokushima"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 73.497372,228.7517 2.053785,-1.35636 5.001681,-0.50383 5.233011,3.08778 -0.775256,1.71792 -4.109065,0.0387 -3.721391,1.27893 -2.093273,-0.34897 -3.049482,1.13674 -0.671734,-0.67172 -0.0387,-2.71277 -1.007878,-1.3952 0.129204,-0.27115 z"
+       id="kagawa"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 77.877411,240.72913 1.821406,0.92894 -0.03814,1.78441 3.188393,1.76412 -2.180465,5.44682 -5.581968,-5.93131 -5.35584,-0.22937 -4.955005,3.87326 -1.082127,3.67979 -3.491653,2.37098 -0.620209,3.31799 0.881805,2.39691 -0.213191,0.15477 -1.873477,-1.42464 -1.818535,-0.1869 -0.151928,0.77162 -3.417329,-0.93037 0.122543,-1.54418 0.736482,-0.15505 -0.132441,-0.94979 -1.059503,-0.0969 0.206939,-4.65188 1.653868,0.0517 3.15267,-2.84281 -0.671883,-3.87657 3.20435,-0.0517 3.669511,-5.4789 7.933358,-2.13183 3.281868,2.15772 1.744298,-0.9304 z"
+       id="kochi"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 64.233191,235.14742 1.899662,-1.08502 3.605787,-0.23314 1.60282,-0.72366 0.723706,0.69762 -0.27137,2.99856 -7.922126,2.1197 -3.670758,5.48013 -3.205132,0.0517 0.672039,3.87748 -3.153476,2.84345 -1.654278,-0.0517 -0.206076,4.6529 -1.73254,-0.15503 -1.925306,-6.59165 2.520144,0.19384 0.271382,-1.04689 -1.93856,-1.43469 -0.116335,-2.40401 -3.140129,1.70526 -2.093652,0.0784 -0.749915,-0.81425 10.907853,-6.66925 1.085618,-3.65773 4.458685,-3.9162 z"
+       id="ehime"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 28.1588,232.92498 0.05185,5.21954 2.200826,1.95098 -0.399006,1.87358 -3.140594,0.31007 -1.801982,2.32566 -0.463146,4.75467 -4.066811,-1.13717 -2.779991,2.94579 -2.16222,-0.64587 0,-2.89409 2.368141,-3.74688 -0.102964,-1.70547 -3.037395,-0.0517 -3.500732,-1.8993 1.028567,-0.4782 -0.771151,-1.34351 2.162213,-0.93027 1.441471,1.39539 0.92667,-0.46507 -0.979442,-1.91243 4.170371,-3.51436 z"
+       id="fukuoka"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 35.962885,244.9671 0.155724,2.01558 5.839843,0.62048 -0.671691,3.04968 2.119215,0.41373 -1.292086,2.17096 1.860646,1.70569 -2.377786,2.15829 -1.240418,-1.48605 -2.403312,1.27931 -5.543137,-2.3648 -3.875911,-6.35782 -1.046249,0.23261 -0.775226,2.24849 -2.131867,-1.24072 0.478359,-4.80753 1.808562,-2.32579 3.152564,-0.31044 0.400556,-1.8612 2.338577,0.62027 3.307649,-2.58465 4.289609,1.9126 -0.775232,1.08558 -0.206728,2.27452 -1.292067,1.44736 z"
+       id="oita"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 17.725393,251.17546 2.784109,-2.96566 3.908558,1.11145 2.300131,1.33091 0.762114,-2.26772 1.066182,-0.21967 3.850719,6.36381 -1.964205,1.0854 -2.274096,4.96183 -1.550525,0 0.878623,3.51463 -0.361781,4.23797 -2.119042,0.77528 -4.031362,0.10338 -1.705573,-1.13727 -1.602212,0.0517 -1.602442,1.13707 -2.118843,-1.55054 4.444693,-8.28246 -2.571327,0.35548 -0.03876,-0.23274 3.02357,-3.10107 -3.159237,-5.62039 0.261652,-0.2035 z"
+       id="kumamoto"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 5.0046986,240.26372 3.1459591,-1.61492 2.0228003,2.08033 1.072644,-0.50419 3.527699,1.89964 3.049631,0.0517 0.10338,1.70509 -2.494027,3.93998 -3.140012,0.19346 0.826993,2.63532 -0.297195,0.64591 -3.8637059,-2.46717 -2.7264686,-5.37414 1.0982765,0.0645 -0.051724,-1.55021 z"
+       id="saga"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 13.216088,259.22501 -2.629118,-0.82719 0.891505,-2.78482 -2.228691,2.3e-4 -4.0696832,3.06241 -0.2583837,-0.12282 0.7043068,-3.6247 -3.5593409,-3.60497 0.2517229,-2.68748 3.3074754,2.01577 0.6266217,2.42922 1.4341097,-0.0388 0.5167922,-0.68483 -1.5891448,-3.35311 -4.3927528,-3.31435 0.2002533,-4.02503 4.0310081,2.20937 2.4999813,4.94254 3.86303,2.49386 -0.936674,2.08683 2.377239,-0.20675 1.291758,1.49245 z"
+       id="nagasaki"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 37.939723,256.89284 2.415958,-1.27799 1.238365,1.48274 -0.465248,0.42642 -7.750252,13.64455 -0.516818,6.56758 -1.757458,5.68542 -1.912047,1.96434 -1.789497,-1.75738 1.272879,-4.1867 -3.204276,-1.96414 -0.413456,-2.89452 -3.307376,-2.32594 -0.671846,-3.04958 3.979271,-0.0517 2.073725,-0.827 0.348844,-4.2707 -0.872124,-3.48246 1.543995,0 2.28044,-4.96202 1.983282,-1.07253 z"
+       id="miyazaki"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 10.586741,269.33541 2.539456,-0.0776 0.82272,-1.5504 2.122453,1.55048 1.598869,-1.14371 1.598876,-0.0484 1.822119,1.21156 0.659281,2.98525 3.304151,2.31648 0.416694,2.8976 3.207556,1.96748 -1.278863,4.17725 -0.736495,-0.71751 -2.3839,1.289 2.432356,2.58806 -4.748426,3.55695 -3.895205,1.1918 -0.184575,-0.24228 2.112573,-4.35163 -0.36825,-5.16576 -1.860609,-0.31982 0.262099,-1.44512 0.988428,-0.25198 1.491937,0.66975 0.620202,-1.75422 -2.529266,-1.34716 -2.064118,3.10138 -0.416687,2.89787 2.115767,3.40828 -2.222384,1.86084 -2.686994,-1.8619 -3.255993,-0.31013 -1.2403871,-4.18683 2.8423571,0 0.827068,-4.65105 -1.912233,-2.1193 z"
+       id="kagoshima"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+    <path
+       d="m 62.583063,109.04388 1.589238,2.05438 -4.535142,3.87619 -1.705524,-0.0775 -4.108761,2.32571 1.627069,2.13198 -0.542586,1.12408 -1.084483,-1.00787 -5.039332,3.75989 -0.270993,-1.86052 2.131849,-2.13194 0.775238,-2.71333 4.108761,-1.86058 0.310096,-0.77523 -1.00781,-1.16286 0.852762,-1.70552 2.674571,2.01562 z"
+       id="okinawa"
+       style="fill:transparent;stroke:#000000;stroke-width:0.62019038px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;cursor:pointer" />
+  </g>
+</svg>
+<!-- /map -->
+</body>
+</html>
